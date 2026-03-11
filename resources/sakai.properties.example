@@ -1,0 +1,53 @@
+# =============================================================================
+# Sakai 23.x — Working sakai.properties
+# =============================================================================
+# This is the reference configuration that works with our multi-tenant setup.
+# Location on server: /opt/tomcat/sakai/sakai.properties
+#
+# Tested with:
+#   - Sakai 23.x, Tomcat 9, MySQL 8, Java 11
+#   - Nginx reverse proxy on port 80
+#   - Subdomains: main.aflon.com.ng, unilesa.aflon.com.ng
+# =============================================================================
+
+# --- Basic Settings ---
+serverName=localhost
+ui.service = Sakai
+version.service = 23
+test=true
+
+# --- Multi-Tenant / Reverse Proxy Support ---
+# This tells Sakai to use the X-Forwarded-Host header (set by nginx)
+# as the serverName, allowing subdomains like main.aflon.com.ng to work.
+# Without this, Sakai only responds to "localhost" and causes redirect loops.
+serverNameHeader=X-Forwarded-Host
+portal.url=/portal
+
+# --- Database Settings ---
+auto.ddl=true
+username@javax.sql.BaseDataSource=sakaiuser
+password@javax.sql.BaseDataSource=sakaipassword
+vendor@org.sakaiproject.db.api.SqlService=mysql
+driverClassName@javax.sql.BaseDataSource=com.mysql.cj.jdbc.Driver
+hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+url@javax.sql.BaseDataSource=jdbc:mysql://127.0.0.1:3306/sakaidatabase?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+validationQuery@javax.sql.BaseDataSource=
+defaultTransactionIsolationString@javax.sql.BaseDataSource=TRANSACTION_READ_COMMITTED
+
+# --- MULTI-TENANT CONFIGURATIONS ---
+# Unilesa Tenant
+skin.default.unilesa=unilesa
+# gatewaySiteId.unilesa=!gateway_unilesa
+
+# Main (ACAIR) Tenant
+skin.default.main=main
+# gatewaySiteId.main=!gateway_main
+# =============================================================================
+# NOTES:
+#   - allowPublicKeyRetrieval=true: Required for MySQL 8 authentication.
+#     Without it, Sakai gets "Public Key Retrieval is not allowed" error.
+#   - auto.ddl=true: Automatically creates the ~340 required database tables
+#     on first startup. Set to false after initial setup for production.
+#   - serverNameHeader=X-Forwarded-Host: The KEY setting for multi-tenant.
+#     Nginx must send this header (proxy_set_header X-Forwarded-Host $host).
+# =============================================================================

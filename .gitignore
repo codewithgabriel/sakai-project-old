@@ -1,0 +1,22 @@
+# Sakai source code (external repo, cloned locally)
+sakai-source/
+
+# Build artifacts
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+startup_errors.txt

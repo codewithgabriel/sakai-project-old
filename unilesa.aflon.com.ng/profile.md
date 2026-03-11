@@ -1,0 +1,1 @@
+I am a subdomain, I can only see and view what resource main.aflon.com.ng gives me permission to see. I have my own unique color theme and assets. I am a tenant of main.aflon.com.ng. 

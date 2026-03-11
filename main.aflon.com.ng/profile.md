@@ -1,0 +1,1 @@
+main.aflon.com.ng is the main site like admin, who can create site and configure what is to be displayed on other subdomains, manage permision and all.  

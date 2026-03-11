@@ -46,8 +46,8 @@ RUN echo 'export JAVA_OPTS="-Xms2g -Xmx2g -Djava.awt.headless=true -Dhttp.agent=
     chmod +x ${TOMCAT_HOME}/bin/setenv.sh
 
 # Setup Sakai Properties Template and Entrypoint
-COPY sakai.properties.template ${SAKAI_HOME}/sakai.properties.template
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+COPY config/sakai.properties.template ${SAKAI_HOME}/sakai.properties.template
+COPY scripts/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
 # Expose Sakai port
