@@ -1,0 +1,23 @@
+# Basic Settings
+serverName=localhost
+ui.service = Sakai
+version.service = 23
+test=true
+search.enable=true
+# Let Sakai honor the subdomain as base URL
+serverNameHeader=X-Forwarded-Host
+# Ensure portal uses relative URLs internally
+portal.url=/portal
+#serverName=aflon.com.ng
+
+
+# Database Settings
+auto.ddl=true
+username@javax.sql.BaseDataSource=sakaiuser
+password@javax.sql.BaseDataSource=sakaipassword
+vendor@org.sakaiproject.db.api.SqlService=mysql
+driverClassName@javax.sql.BaseDataSource=com.mysql.cj.jdbc.Driver
+hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+url@javax.sql.BaseDataSource=jdbc:mysql://db:3306/sakaidatabase?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+validationQuery@javax.sql.BaseDataSource=
+defaultTransactionIsolationString@javax.sql.BaseDataSource=TRANSACTION_READ_COMMITTED

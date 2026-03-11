@@ -1,0 +1,12 @@
+.git
+.gitignore
+.dockerignore
+node_modules
+target
+*.log
+*.sh
+!entrypoint.sh
+README.md
+Dockerfile
+docker-compose.yml
+sakai.properties.docker

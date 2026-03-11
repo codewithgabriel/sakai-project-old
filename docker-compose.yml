@@ -1,0 +1,41 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: sakai-db
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: sakaidatabase
+      MYSQL_USER: sakaiuser
+      MYSQL_PASSWORD: sakaipassword
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  sakai:
+    build: .
+    container_name: sakai-app
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      - SAKAI_DB_HOST=db
+      - SAKAI_DB_USER=sakaiuser
+      - SAKAI_DB_PASS=sakaipassword
+      - SAKAI_DB_NAME=sakaidatabase
+    volumes:
+      - sakai_data:/usr/local/tomcat/sakai
+    restart: always
+
+volumes:
+  db_data:
+  sakai_data:
