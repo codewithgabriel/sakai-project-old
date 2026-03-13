@@ -1,0 +1,315 @@
+{
+  "faculties": [
+    {
+      "name": "Administration and Management",
+      "acronym": "ADM",
+      "departments": [
+        {"name": "Accounting", "acronym": "ACC"},
+        {"name": "Actuarial Science", "acronym": "ACS"},
+        {"name": "Aviation Management", "acronym": "AVM"},
+        {"name": "Business Administration", "acronym": "BUA"},
+        {"name": "Business Information Technology", "acronym": "BIT"},
+        {"name": "Co-operative and Rural Development", "acronym": "CRD"},
+        {"name": "Employment and Human Resource Management", "acronym": "HER"},
+        {"name": "Entrepreneurship", "acronym": "ENT"},
+        {"name": "Finance / Banking and Finance", "acronym": "FIN"},
+        {"name": "Hospitality and Tourism Management", "acronym": "HTM"},
+        {"name": "Information Resource Management", "acronym": "IRM"},
+        {"name": "Insurance", "acronym": "INS"},
+        {"name": "Local Government and Development Studies", "acronym": "LGD"},
+        {"name": "Logistics and Supply Chain Management", "acronym": "LSM"},
+        {"name": "Marketing", "acronym": "MKT"},
+        {"name": "Office and Information Management", "acronym": "OIM"},
+        {"name": "Petroleum Information Management", "acronym": "PIM"},
+        {"name": "Procurement Management", "acronym": "PRM"},
+        {"name": "Project Management", "acronym": "PGM"},
+        {"name": "Public Administration", "acronym": "PAD"},
+        {"name": "Security and Investment", "acronym": "SIM"},
+        {"name": "Taxation", "acronym": "TAX"},
+        {"name": "Transport Management", "acronym": "TPM"}
+      ]
+    },
+    {
+      "name": "Agriculture",
+      "acronym": "AGR",
+      "departments": [
+        {"name": "Agribusiness", "acronym": "AGB"},
+        {"name": "Agricultural Economics", "acronym": "AGE"},
+        {"name": "Agricultural Extension", "acronym": "AGX"},
+        {"name": "Agriculture (5-Year Option)", "acronym": "AGR"},
+        {"name": "Animal Science", "acronym": "ANS"},
+        {"name": "Crop Science", "acronym": "CPS"},
+        {"name": "Family and Consumer Sciences", "acronym": "FCS"},
+        {"name": "Fisheries and Aquaculture", "acronym": "FAA"},
+        {"name": "Food Science and Technology", "acronym": "FST"},
+        {"name": "Forest Resources and Wildlife Management", "acronym": "FRM"},
+        {"name": "Horticulture and Landscape Management", "acronym": "HLM"},
+        {"name": "Soil Science", "acronym": "SOS"},
+        {"name": "Water Resources Management and Agro-Meteorology", "acronym": "WMA"}
+      ]
+    },
+    {
+      "name": "Architecture",
+      "acronym": "ARC",
+      "departments": [
+        {"name": "Architecture", "acronym": "ARC"},
+        {"name": "Architectural Technology (B.Sc. Tech. Architecture)", "acronym": "ARST"},
+        {"name": "Furniture Design", "acronym": "FUD"},
+        {"name": "Interior Architecture Design", "acronym": "IAD"},
+        {"name": "Landscape Architecture", "acronym": "LAA"},
+        {"name": "Naval Architecture", "acronym": "NAA"}
+      ]
+    },
+    {
+      "name": "Arts",
+      "acronym": "ART",
+      "departments": [
+        {"name": "African Traditional Religion", "acronym": "ATR"},
+        {"name": "Arabic", "acronym": "ARA"},
+        {"name": "Archaeology", "acronym": "ARC"},
+        {"name": "Chinese Language", "acronym": "CHS"},
+        {"name": "Christian Religious Studies", "acronym": "CRS"},
+        {"name": "Christian Theology", "acronym": "CTH"},
+        {"name": "Classics", "acronym": "CLC / CLL / CLG"},
+        {"name": "Efik", "acronym": "EFK"},
+        {"name": "English Language and Literature in English", "acronym": "ENG / LIT"},
+        {"name": "Film Production", "acronym": "FIP"},
+        {"name": "Folklore", "acronym": "FLS"},
+        {"name": "Hausa", "acronym": "HAU"},
+        {"name": "History", "acronym": "HIS"},
+        {"name": "History and Diplomatic Studies", "acronym": "HID"},
+        {"name": "Ibibio", "acronym": "IBI"},
+        {"name": "Igbo", "acronym": "IGB"},
+        {"name": "Islamic Studies", "acronym": "ISS"},
+        {"name": "Linguistics", "acronym": "LIN"},
+        {"name": "Modern European Languages - French", "acronym": "FRE"},
+        {"name": "Modern European Languages - German", "acronym": "GER"},
+        {"name": "Modern European Languages - Russian", "acronym": "RUS"},
+        {"name": "Music", "acronym": "MUS"},
+        {"name": "Philosophy", "acronym": "PHL"},
+        {"name": "Religious Studies", "acronym": "RES"},
+        {"name": "Theatre Arts", "acronym": "THA"},
+        {"name": "Yoruba", "acronym": "YOU"}
+      ]
+    },
+    {
+      "name": "Basic Medical Sciences",
+      "acronym": "BMS",
+      "departments": [
+        {"name": "Human Anatomy", "acronym": "ANA"},
+        {"name": "Physiology", "acronym": "PIO"}
+      ]
+    },
+    {
+      "name": "Communication and Media Studies",
+      "acronym": "CMS",
+      "departments": [
+        {"name": "Advertising", "acronym": "ADV"},
+        {"name": "Broadcasting", "acronym": "BCJ"},
+        {"name": "Development Communication Studies", "acronym": "DCS"},
+        {"name": "Film and Multimedia", "acronym": "FMM"},
+        {"name": "Information and Media Studies", "acronym": "ISM"},
+        {"name": "Journalism and Media Studies", "acronym": "JMS"},
+        {"name": "Mass Communication", "acronym": "MCM"},
+        {"name": "Public Relations", "acronym": "PRS"},
+        {"name": "Strategic Communication", "acronym": "STC"}
+      ]
+    },
+    {
+      "name": "Computing",
+      "acronym": "CPT",
+      "departments": [
+        {"name": "Computer Science", "acronym": "CSC"},
+        {"name": "Cybersecurity", "acronym": "CYB"},
+        {"name": "Data Science", "acronym": "DTS"},
+        {"name": "Information and Communication Technology", "acronym": "ICT"},
+        {"name": "Information Systems", "acronym": "INS"},
+        {"name": "Information Technology", "acronym": "IFT"},
+        {"name": "Software Engineering", "acronym": "SEN"}
+      ]
+    },
+    {
+      "name": "Education",
+      "acronym": "EDU",
+      "departments": [
+        {"name": "Adult and Continuing Education", "acronym": "ACE"},
+        {"name": "Agricultural Education", "acronym": "AED"},
+        {"name": "Arabic", "acronym": "ARA"},
+        {"name": "Biology", "acronym": "BIO"},
+        {"name": "Business Education", "acronym": "BED"},
+        {"name": "Chemistry", "acronym": "CHM"},
+        {"name": "Christian Religious Studies", "acronym": "CRS"},
+        {"name": "Computer Science", "acronym": "CSC"},
+        {"name": "Creative Arts Education", "acronym": "CAE"},
+        {"name": "Early Childhood Education", "acronym": "ECE"},
+        {"name": "Economics", "acronym": "ECO"},
+        {"name": "Educational Management", "acronym": "EDM"},
+        {"name": "Efik-Ibibio Education", "acronym": "EFE"},
+        {"name": "English Language / Literature-in-English", "acronym": "ENG"},
+        {"name": "Entrepreneurship Education", "acronym": "EED"},
+        {"name": "Environmental Education", "acronym": "EEE"},
+        {"name": "French", "acronym": "FRE"},
+        {"name": "Geography", "acronym": "GEO"},
+        {"name": "Guidance and Counselling", "acronym": "GCE"},
+        {"name": "Hausa", "acronym": "HAU"},
+        {"name": "Health Education", "acronym": "HED"},
+        {"name": "History", "acronym": "HIS"},
+        {"name": "Home Economics", "acronym": "HEC"},
+        {"name": "Human Kinetics / Physical Education", "acronym": "HKE"},
+        {"name": "Igbo", "acronym": "IGB"},
+        {"name": "Integrated Science", "acronym": "ISC"},
+        {"name": "Islamic Studies", "acronym": "ISS"},
+        {"name": "Language Arts and Communication", "acronym": "LAC"},
+        {"name": "Library and Information Science", "acronym": "LIS"},
+        {"name": "Mathematics", "acronym": "MAT"},
+        {"name": "Music", "acronym": "MUS"},
+        {"name": "Physics", "acronym": "PHY"},
+        {"name": "Political Science", "acronym": "POL"},
+        {"name": "Primary Education", "acronym": "PED"},
+        {"name": "Social Studies and Civic Education", "acronym": "SSE"},
+        {"name": "Special Needs Education", "acronym": "SNE"},
+        {"name": "Sustainable Development Studies", "acronym": "SDS"},
+        {"name": "Technology Education", "acronym": "TED"},
+        {"name": "Yoruba", "acronym": "YOR"}
+      ]
+    },
+    {
+      "name": "Engineering and Technology",
+      "acronym": "ENT",
+      "departments": [
+        {"name": "Aerospace Engineering", "acronym": "AAE"},
+        {"name": "Agricultural and Biosystems Engineering", "acronym": "ABE"},
+        {"name": "Automotive Engineering", "acronym": "TAE"},
+        {"name": "Biomedical Engineering", "acronym": "BME"},
+        {"name": "Chemical Engineering", "acronym": "TCH"},
+        {"name": "Civil Engineering", "acronym": "CEE"},
+        {"name": "Computer Engineering", "acronym": "CPE"},
+        {"name": "Electrical and Electronics Engineering", "acronym": "EEE"},
+        {"name": "Electrical Engineering", "acronym": "TEL"},
+        {"name": "Electronics Engineering", "acronym": "ELE"},
+        {"name": "Environmental Engineering", "acronym": "EVE"},
+        {"name": "Food Science and Technology", "acronym": "FST"},
+        {"name": "Industrial and Production Engineering", "acronym": "IPE"},
+        {"name": "Information and Communication Engineering", "acronym": "ICE"},
+        {"name": "Marine Engineering", "acronym": "MAR"},
+        {"name": "Materials and Metallurgical Engineering", "acronym": "MME"},
+        {"name": "Mechanical Engineering", "acronym": "MEE"},
+        {"name": "Mechatronics Engineering", "acronym": "MCE"},
+        {"name": "Metallurgical Engineering", "acronym": "MTE"},
+        {"name": "Mining Engineering", "acronym": "MNE"},
+        {"name": "Natural Gas Engineering", "acronym": "GNG"},
+        {"name": "Petrochemical Engineering", "acronym": "PCE"},
+        {"name": "Petroleum and Gas Engineering", "acronym": "PGE"},
+        {"name": "Petroleum Engineering", "acronym": "PEE"},
+        {"name": "Structural Engineering", "acronym": "STE"},
+        {"name": "Systems Engineering", "acronym": "SYE"},
+        {"name": "Telecommunications Engineering", "acronym": "TEE"},
+        {"name": "Water Resources Engineering", "acronym": "WRE"},
+        {"name": "Wood Products Engineering", "acronym": "WPE"}
+      ]
+    },
+    {
+      "name": "Environmental Sciences",
+      "acronym": "ENS",
+      "departments": [
+        {"name": "Building", "acronym": "BUD"},
+        {"name": "Clothing and Textile Design", "acronym": "CLT"},
+        {"name": "Environmental Management", "acronym": "EVM"},
+        {"name": "Environmental Standards", "acronym": "EVS"},
+        {"name": "Estate Management", "acronym": "ESM"},
+        {"name": "Fashion Design", "acronym": "FAD"},
+        {"name": "Fine and Applied Arts", "acronym": "FAA"},
+        {"name": "Geography", "acronym": "GEO"},
+        {"name": "Industrial Design", "acronym": "IDD"},
+        {"name": "Quantity Surveying", "acronym": "QTS"},
+        {"name": "Surveying and Geo-Informatics", "acronym": "SVG"},
+        {"name": "Urban and Regional Planning", "acronym": "URP"}
+      ]
+    },
+    {
+      "name": "Law",
+      "acronym": "LAW",
+      "departments": [
+        {"name": "Law", "acronym": "LAW"}
+      ]
+    },
+    {
+      "name": "Medicine and Dentistry",
+      "acronym": "MED",
+      "departments": [
+        {"name": "Medicine and Surgery", "acronym": "MBBS / MBChB"},
+        {"name": "Dentistry", "acronym": "BDS / BChD"}
+      ]
+    },
+    {
+      "name": "Pharmaceutical Science",
+      "acronym": "PHA",
+      "departments": [
+        {"name": "Pharmacy (B.Pharm.)", "acronym": "BPHARM"},
+        {"name": "Pharmacy (Pharm.D)", "acronym": "PHARMD"}
+      ]
+    },
+    {
+      "name": "Sciences",
+      "acronym": "SCI",
+      "departments": [
+        {"name": "Biochemistry", "acronym": "BCH"},
+        {"name": "Biological Sciences", "acronym": "BIO"},
+        {"name": "Biotechnology", "acronym": "BTG"},
+        {"name": "Botany", "acronym": "BOT"},
+        {"name": "Brewing Science", "acronym": "BRS"},
+        {"name": "Chemistry", "acronym": "CHM"},
+        {"name": "Computer Science", "acronym": "CSC"},
+        {"name": "Environmental Management and Toxicology", "acronym": "EMT"},
+        {"name": "Geology", "acronym": "GLY"},
+        {"name": "Geophysics", "acronym": "GPH"},
+        {"name": "Industrial Chemistry", "acronym": "ICH"},
+        {"name": "Mathematics", "acronym": "MTH"},
+        {"name": "Meteorology", "acronym": "MET"},
+        {"name": "Microbiology", "acronym": "MCB"},
+        {"name": "Physics", "acronym": "PHY"},
+        {"name": "Science Laboratory Technology", "acronym": "SLT"},
+        {"name": "Statistics", "acronym": "STA"},
+        {"name": "Zoology", "acronym": "ZOO"}
+      ]
+    },
+    {
+      "name": "Social Sciences",
+      "acronym": "SOS",
+      "departments": [
+        {"name": "Criminology and Security Studies", "acronym": "CSS"},
+        {"name": "Demography and Social Statistics", "acronym": "DSS"},
+        {"name": "Development Studies", "acronym": "DES"},
+        {"name": "Economics", "acronym": "ECO"},
+        {"name": "International Relations", "acronym": "IRS"},
+        {"name": "Peace and Conflict Resolution", "acronym": "PCR"},
+        {"name": "Petroleum Economics and Policy Studies", "acronym": "PEP"},
+        {"name": "Political Science", "acronym": "POL"},
+        {"name": "Politics, Philosophy and Economics", "acronym": "PPE"},
+        {"name": "Psychology", "acronym": "PSY"},
+        {"name": "Social Standards", "acronym": "SST"},
+        {"name": "Social Work", "acronym": "BSW"},
+        {"name": "Sociology", "acronym": "SOC"}
+      ]
+    },
+    {
+      "name": "Veterinary Medicine",
+      "acronym": "VET",
+      "departments": [
+        {"name": "Veterinary Medicine", "acronym": "VET"}
+      ]
+    }
+  ],
+  "gist_courses": [
+    {"title": "Communication in English I", "code": "GIST 111"},
+    {"title": "Communication in English II", "code": "GIST 112"},
+    {"title": "Logic, Philosophy & Human Existence", "code": "GIST 113"},
+    {"title": "Nigerian Peoples & Culture", "code": "GIST 114"},
+    {"title": "Digital Literacy / ICT Skills", "code": "GIST 121"},
+    {"title": "Use of Library & Information Skills", "code": "GIST 122"},
+    {"title": "History & Philosophy of Science", "code": "GIST 221"},
+    {"title": "Peace Studies & Conflict Resolution", "code": "GIST 222"},
+    {"title": "Introduction to Entrepreneurship", "code": "GIST 311"},
+    {"title": "Entrepreneurship & Innovation", "code": "GIST 312"}
+  ]
+}

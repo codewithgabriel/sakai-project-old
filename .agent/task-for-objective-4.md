@@ -1,0 +1,23 @@
+# Tasks
+
+- [/] **Research and Planning**
+    - [x] Analyze PDF faculty data
+    - [/] Create implementation plan for hierarchy tool
+    - [ ] Research Sakai tool integration (Site Action/Tool)
+- [ ] **Data Preparation**
+    - [ ] Extract faculty/department data to `config/hierarchy.json`
+- [ ] **Backend Implementation**
+    - [ ] Create Hierarchy Service/API in Sakai
+    - [ ] Implement data retrieval for Faculties, Departments, Levels, Courses
+- [ ] **Frontend Implementation**
+    - [ ] Design the "Faculties" tool UI (drill-down)
+    - [ ] Implement Faculty list view
+    - [ ] Implement Department list view
+    - [ ] Implement Level/Course list view
+    - [ ] Hook up to Lecture Materials (Content Hosting)
+- [ ] **Objective 5: Custom Landing Pages**
+    - [ ] Redesign Login Page
+    - [ ] Create per-tenant welcome pages
+- [ ] **Verification**
+    - [ ] Test drill-down navigation
+    - [ ] Verify multi-tenant landing pages

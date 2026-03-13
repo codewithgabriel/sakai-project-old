@@ -11,18 +11,22 @@ Per prompt rule #1, tackling one objective at a time.
 - [x] **1.6** Add [install](file:///home/gabriel/Documents/sakai-project-dev/scripts/dev.sh#177-369) command — full automated setup from clean Ubuntu
 - [x] **1.7** Add `clean-remove` command — complete uninstall, system back to clean
 
-## Objective 2: Multi-Tenant Setup (IN PROGRESS)
+## Objective 2: Multi-Tenant Setup ✅ COMPLETE
 - [x] Fix nginx configs with proper proxy headers
 - [x] Update `sakai.properties` to accept subdomain requests
-- [ ] Configure single Sakai instance for multiple universities
-- [ ] Subdomain-based tenant routing via nginx
-- [ ] Admin site at [main.aflon.com.ng](file:///home/gabriel/Documents/sakai-project-dev/config/nginx/main.aflon.com.ng)
+- [x] Configure single Sakai instance for multiple universities
+- [x] Subdomain-based tenant routing via nginx
+- [x] Admin site at main.aflon.com.ng
 
-## Objective 3: Per-Tenant Theming (FUTURE)
-- [ ] Different color themes per university subdomain
+## Objective 3: Per-Tenant Theming ✅ COMPLETE
+- [x] Different color themes per university subdomain
 
-## Objective 4: Faculty/Department/Course Hierarchy (FUTURE)
-- [ ] Custom Faculties tool with drill-down navigation
+## Objective 4: Faculty/Department/Course Hierarchy (IN PROGRESS)
+- [ ] Research Sakai Hierarchy API / Service
+- [ ] Define data structure for Faculty -> Department -> Level -> Course
+- [ ] Create skeleton for the "Faculties" tool (custom tool or customized existing tool)
+- [ ] Implement drill-down navigation UI
+- [ ] Integrate with Content Hosting (Resources) for lecture materials (PDFs)
 
 ## Objective 5: Custom Landing Pages (FUTURE)
 - [ ] Hide Sakai branding, show custom welcome pages per subdomain

@@ -8,6 +8,19 @@ test=true
 serverNameHeader=X-Forwarded-Host
 portal.url=/portal
 
+# --- Tenant: Main ---
+ui.service.main=Aflon Main Admin
+skin.default.main=main
+icon.custom.url.main=/library/skin/main/images/logo.png
+login.icon.main=/library/skin/main/images/logo.png
+
+# --- Tenant: Unilesa ---
+ui.service.unilesa=Unilesa Learning Management System
+skin.default.unilesa=unilesa
+icon.custom.url.unilesa=/library/skin/unilesa/images/logo.png
+login.icon.unilesa=/library/skin/unilesa/images/logo.png
+login.motto.unilesa=Knowledge Virtue Wisdom
+
 # Database Settings
 auto.ddl=true
 username@javax.sql.BaseDataSource=sakaiuser
@@ -18,3 +31,6 @@ hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 url@javax.sql.BaseDataSource=jdbc:mysql://127.0.0.1:3306/sakaidatabase?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
 validationQuery@javax.sql.BaseDataSource=
 defaultTransactionIsolationString@javax.sql.BaseDataSource=TRANSACTION_READ_COMMITTED
+
+# Faculty Hierarchy Tool
+hierarchy.json.path=${sakai.home}/hierarchy.json
